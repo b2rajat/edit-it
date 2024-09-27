@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Edit It",
+    "version": "1.0",
+    "description": "Edit website text",
+    "permissions": [
+      "activeTab"
+    ],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    }
+  }
+  
