@@ -1,27 +1,32 @@
-Text Editor Chrome Extension
-Overview
-This Chrome extension allows users to easily edit any text on a webpage in real-time. Whether you're looking to modify content for personal use, accessibility purposes, or testing, this extension provides an intuitive, on-the-fly text editing feature. With just a click, users can activate the ability to edit all text within a webpage, making it more interactive and customizable.
+# Chrome Extension: **Design Mode Toggle**
 
-Features
-Edit Any Text: Instantly edit any text content on a website, including headings, paragraphs, and form fields.
-Real-Time Editing: Changes are applied directly on the webpage, allowing for a seamless and immediate editing experience.
-User-Friendly: Simple interface with one-click activation to turn the text-editing mode on/off.
-Accessibility: Useful for accessibility purposes, allowing users to adjust text content as needed.
-Use Cases
-Personal Customization: Modify and experiment with text on websites for personal use (e.g., adjusting font size or phrasing).
-Content Testing: Quickly test changes to content or layout without needing to make permanent edits to the website’s source code.
-Accessibility Improvement: Improve readability by modifying text for better clarity, especially for users with visual impairments.
-Education and Learning: Use it for practice by making temporary changes to instructional content or online learning materials.
-How to Use
-Install the Extension: Add the extension to your Chrome browser.
-Activate Editing Mode: Click the extension icon in the toolbar to enable text editing mode.
-Edit Text: Click on any text on the page to start editing. You can modify the content just like you would in a text editor.
-Exit Editing Mode: Click the extension icon again to deactivate editing mode and revert the page back to its original state.
-Important Notes
-This extension allows temporary changes to text content on the webpage. The changes will not persist once the page is reloaded or navigated away from.
-It works on most text-based content but may not support more complex elements like images or videos.
-No data is collected: The extension operates locally and does not collect any user data.
-Support
-If you encounter any issues or have questions, feel free to open an issue on the GitHub repository.
+## Overview
 
-This README clearly explains the purpose of your Chrome extension, its use cases, and how to install and use it, without delving into the technical code details.
+This Chrome extension provides a simple and powerful tool for web developers, designers, and content creators by enabling the "designMode" feature on any webpage. With just a click, you can turn any page into an editable canvas, making it easy to test and preview text and content modifications in real time.
+
+## Features
+
+- **Enable "Design Mode"**: Toggle the "designMode" feature on any webpage, allowing you to directly edit text and content.
+- **Instant Content Modification**: Quickly modify text, images, or other content without needing to access the underlying code or backend.
+- **Temporary Changes**: Edits are temporary and will be reset once the page is refreshed.
+- **Easy Toggle**: Activate and deactivate design mode with a simple click from the browser toolbar.
+
+## Use Cases
+
+- **Quick Prototyping**: Modify content or layout on a live page to preview how changes would look, perfect for testing design concepts or content edits.
+- **Content Editing**: Spot errors, try out new text, or experiment with different content on any webpage without making permanent changes.
+- **UI/UX Testing**: Make instant changes to test UI elements, text, or user flow, and preview how the page would appear with modifications.
+- **Learning Tool**: Ideal for beginners who want to experiment with page content and learn more about web design in a hands-on way.
+
+## How It Works
+
+The extension enables the `document.designMode` property, allowing you to edit text, images, and elements directly on the page. This is useful for quick visual changes or testing content without needing to go into the site's code or backend system.
+
+## License & Terms
+
+This extension is **not available on the Chrome Web Store** and is provided for personal use. You are free to use, modify, or distribute the code, but please be aware that no formal open-source license is provided. Redistribution or modifications are at your own risk.
+
+## Disclaimer
+
+The extension is intended for testing and educational purposes. Changes made using this extension are temporary and will not persist once the page is refreshed. Use with caution, and avoid using it on sensitive or important production websites.
+
